@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #EDECF1;
+    color: white;
+    font-family: 'outfit';
+}

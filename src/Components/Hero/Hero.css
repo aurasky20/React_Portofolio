@@ -1,0 +1,77 @@
+.hero{
+    padding: 40px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    color: #1E141E;
+    cursor: default;
+}
+.hero h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #3C2724;
+}
+.hero img{
+    margin-top: 8%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    }
+
+.hero h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #5E4443;
+    margin-bottom: 3%;
+}
+.hero h2 span {
+    background: linear-gradient(270deg, #FF6A00, #00E4E8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero p {
+    font-size: 1.2rem;
+    line-height: 32px;
+    color: #3C2724;
+}
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 40px;
+}
+.hero-connect {
+    padding: 12px 20px;
+    border-radius: 12px;
+    background: linear-gradient(267deg, #FF6A00, #00E4E8);
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.hero-connect:hover {
+    transform: scale(1.05);
+    background: linear-gradient(267deg, #1B896E, #00E4E8);
+    color: white;
+}
+.hero-resume {
+    padding: 12px 20px;
+    border-radius: 12px;
+    background-color: #1E141E;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.hero-resume:hover {
+    transform: scale(1.05);
+    background-color: #5E4443;
+    color: gainsboro;
+}
